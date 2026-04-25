@@ -1,0 +1,17 @@
+name: Mann Patel
+email: hello@example.com
+github: your-github-username
+linkedin: your-linkedin-username
+twitter: your-twitter-username
+bio: "Developer & Designer"
+location: "Your City, Country"
+
+theme: jekyll-theme-minimal
+title: Mann Patel
+description: Developer & Designer
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
