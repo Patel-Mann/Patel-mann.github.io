@@ -5,11 +5,11 @@ title: PDG & CIA Analysis Tool for Java 1.4
 
 <p class="back-link"><a href="/">← Back to Home</a></p>
 
+<img class="project-hero-image" src="/assets/images/pdg-cia-tool.gif" alt="PDG & CIA Tool Screenshot">
+
 <h1>Program Dependence Graphs for Change Impact Analysis</h1>
 
 <p><em>CPSC 499: Software Analysis | December 23, 2025 | Mann, Nico, Mandeep</em></p>
-
-<!-- Add project screenshot here: /assets/images/pdg-cia-tool.gif -->
 
 <h2>Project Overview</h2>
 
