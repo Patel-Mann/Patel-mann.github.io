@@ -9,6 +9,8 @@ title: PDG & CIA Analysis Tool for Java 1.4
 
 <p><em>CPSC 499: Software Analysis | December 23, 2025 | Mann, Nico, Mandeep</em></p>
 
+<!-- Add project screenshot here: /assets/images/pdg-cia-tool.gif -->
+
 <h2>Project Overview</h2>
 
 <p>Understanding the consequences of code changes is fundamental to software maintenance. When you modify a single line in a large codebase, how do you know what else might break? A seemingly small change can ripple through the system in unexpected ways due to data and control dependencies. This project tackles that problem head-on by building a tool that automatically identifies which lines of code may be impacted by a change.</p>

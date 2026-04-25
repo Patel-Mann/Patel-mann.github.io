@@ -7,6 +7,11 @@ title: Home
   <h1>{{ site.name }}</h1>
   <p class="bio">{{ site.bio }}</p>
   <p class="location">{{ site.location }}</p>
+  <div class="social-links">
+    <a href="https://github.com/{{ site.github }}" target="_blank">GitHub</a>
+    <a href="https://linkedin.com/in/{{ site.linkedin }}" target="_blank">LinkedIn</a>
+    <a href="mailto:{{ site.email }}">Email</a>
+  </div>
 </section>
 
 <section class="projects">
