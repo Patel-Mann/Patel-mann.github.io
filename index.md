@@ -20,13 +20,28 @@ title: Home
 
   <div class="project-card project-card-with-image">
     <div class="project-image">
+      <img src="/assets/images/fin-track.gif" alt="Fin-Track Application Screenshot">
+    </div>
+    <div class="project-content">
+      <a href="/projects/fin-track">
+        <h3>Fin-Track: CalgaryHacks 2025</h3>
+      </a>
+      <p class="project-meta">December 2025 </p><p class="award-badge-inline">Winner: Best Hardware Implementation</p>
+      <p class="tech-stack">React | Next.js | Supabase | Plaid API | ESP32</p>
+      <p>An offline-first personal finance system with a physical ESP32 LCD display showing real-time banking balances. Combined expense tracking, subscription management, and financial literacy quizzes.</p>
+    </div>
+  </div>
+
+  <div class="project-card project-card-with-image">
+    <div class="project-image">
       <img src="/assets/images/pdg-cia-tool.gif" alt="PDG & CIA Tool Screenshot">
     </div>
     <div class="project-content">
       <a href="/projects/pdg-cia-tool">
         <h3>Program Dependence Graphs for Change Impact Analysis</h3>
       </a>
-      <p class="project-meta">December 2025 </p><p class="tech-stack"> Java </p>
+      <p class="project-meta">December 2025 </p>
+      <p class="tech-stack">Java | JavaParser | AST | CFG | PDG</p>
       <p>Built a PDG-based change impact analysis tool for Java 1.4 programs. The tool parses source code, constructs a dependency graph capturing control flow and data flow relationships, and performs reachability analysis to determine impact sets for any given line change.</p>
     </div>
   </div>
