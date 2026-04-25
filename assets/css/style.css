@@ -53,6 +53,17 @@ a:hover {
   font-size: 1rem;
 }
 
+.social-links {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.social-links a {
+  color: #0066cc;
+}
+
 .projects {
   margin-top: 3rem;
 }
@@ -87,29 +98,8 @@ blockquote {
   font-style: italic;
 }
 
-.site-footer {
-  text-align: center;
-  padding: 3rem 0 1rem;
-  margin-top: 4rem;
-  border-top: 1px solid #eee;
-}
-
-.social-links {
-  display: flex;
-  gap: 1.5rem;
-  justify-content: center;
-}
-
-.social-links a {
-  color: #666;
-}
-
 .back-link {
   margin-bottom: 2rem;
-}
-
-.site-footer .social-links a {
-  font-size: 0.95rem;
 }
 
 @media (max-width: 600px) {
