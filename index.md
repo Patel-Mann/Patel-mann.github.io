@@ -18,6 +18,7 @@ title: Home
   <h2>Projects</h2>
 
   <div class="project-card project-card-with-image">
+  <a href="/projects/pdg-cia-tool">
     <div class="project-image">
       <img src="/assets/images/pdg-cia-tool.gif" alt="PDG & CIA Tool Screenshot">
     </div>
@@ -26,7 +27,7 @@ title: Home
       <p class="project-meta">CPSC 499: Software Analysis | December 2025 | Mann, Nico, Mandeep</p>
       <p>Built a PDG-based change impact analysis tool for Java 1.4 programs. The tool parses source code, constructs a dependency graph capturing control flow and data flow relationships, and performs reachability analysis to determine impact sets for any given line change.</p>
       <p class="tech-stack">JavaParser | AST | CFG | PDG | Reaching Definitions Analysis | GEN/KILL Algorithm</p>
-      <p><a href="/projects/pdg-cia-tool">View Project →</a>
     </div>
+  </a>
   </div>
 </section>
