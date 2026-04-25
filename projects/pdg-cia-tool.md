@@ -9,7 +9,7 @@ title: PDG & CIA Analysis Tool for Java 1.4
 
 <h1>Program Dependence Graphs for Change Impact Analysis</h1>
 
-<p><em>CPSC 499: Software Analysis | December 23, 2025 | Mann, Nico, Mandeep</em></p>
+<p><em>CPSC 499: Software Analysis | December 23, 2025 </em></p>
 
 <h2> Introduction </h2>
 

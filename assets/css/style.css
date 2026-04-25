@@ -53,6 +53,14 @@ a:hover {
   font-size: 1rem;
 }
 
+.hero .intro {
+  max-width: 600px;
+  margin: 2rem auto 0;
+  color: #555;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
 .social-links {
   display: flex;
   gap: 1.5rem;
@@ -104,16 +112,21 @@ a:hover {
   padding: 1.5rem;
 }
 
+.project-card h3 {
+  margin-top: 0;
+}
+
 .project-meta {
   color: #666;
   font-size: 0.9rem;
-  margin: 0.5rem 0 1rem;
+  margin: 0.5rem 0;
+  display: inline;
 }
 
 .tech-stack {
   color: #888;
   font-size: 0.9rem;
-  margin: 1rem 0;
+  display: inline;
 }
 
 blockquote {
@@ -136,6 +149,7 @@ blockquote {
 @media (max-width: 700px) {
   body { padding: 1rem; }
   .hero h1 { font-size: 2rem; }
+  .hero .intro { font-size: 0.95rem; }
   .project-card-with-image {
     flex-direction: column;
   }

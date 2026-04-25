@@ -12,6 +12,7 @@ title: Home
     <a href="https://linkedin.com/in/{{ site.linkedin }}" target="_blank">LinkedIn</a>
     <a href="mailto:{{ site.email }}">Email</a>
   </div>
+  <p class="intro">Hi, my name is Mann, and I enjoy working on backend and embedded software, with a particular focus on improving the performance of backend systems. In my free time, I work on embedded projects that combine software and hardware, allowing me to learn how a complete product comes to market and understand the underlying principles behind smart devices.</p>
 </section>
 
 <section class="projects">
@@ -25,9 +26,8 @@ title: Home
       <a href="/projects/pdg-cia-tool">
         <h3>Program Dependence Graphs for Change Impact Analysis</h3>
       </a>
-      <p class="project-meta">CPSC 499: Software Analysis | December 2025 | Mann, Nico, Mandeep</p>
+      <p class="project-meta">December 2025 </p><p class="tech-stack"> Java </p>
       <p>Built a PDG-based change impact analysis tool for Java 1.4 programs. The tool parses source code, constructs a dependency graph capturing control flow and data flow relationships, and performs reachability analysis to determine impact sets for any given line change.</p>
-      <p class="tech-stack">JavaParser | AST | CFG | PDG | Reaching Definitions Analysis | GEN/KILL Algorithm</p>
     </div>
   </div>
 </section>
