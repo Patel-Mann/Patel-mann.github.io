@@ -1,14 +1,13 @@
 name: Mann Patel
-email: hello@example.com
-github: your-github-username
-linkedin: your-linkedin-username
-twitter: your-twitter-username
-bio: "Developer & Designer"
-location: "Your City, Country"
+email: mann.patel1@ucalgary.ca
+github: mannpatel
+linkedin: mannpatel
+bio: "Developer"
+location: "Alberta, Calgary"
 
 theme: jekyll-theme-minimal
 title: Mann Patel
-description: Developer & Designer
+description: Developer
 
 defaults:
   - scope:

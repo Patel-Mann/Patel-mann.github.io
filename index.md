@@ -7,26 +7,16 @@ title: Home
   <h1>{{ site.name }}</h1>
   <p class="bio">{{ site.bio }}</p>
   <p class="location">{{ site.location }}</p>
-  <div class="social-links">
-    {% if site.github %}
-    <a href="https://github.com/{{ site.github }}">GitHub</a>
-    {% endif %}
-    {% if site.linkedin %}
-    <a href="https://linkedin.com/in/{{ site.linkedin }}">LinkedIn</a>
-    {% endif %}
-    {% if site.twitter %}
-    <a href="https://twitter.com/{{ site.twitter }}">Twitter</a>
-    {% endif %}
+</section>
+
+<section class="projects">
+  <h2>Projects</h2>
+
+  <div class="project-card">
+    <h3>Program Dependence Graphs for Change Impact Analysis</h3>
+    <p class="project-meta">CPSC 499: Software Analysis | December 2025 | Mann, Nico, Mandeep</p>
+    <p>Built a PDG-based change impact analysis tool for Java 1.4 programs. The tool parses source code, constructs a dependency graph capturing control flow and data flow relationships, and performs reachability analysis to determine impact sets for any given line change.</p>
+    <p class="tech-stack">JavaParser | AST | CFG | PDG | Reaching Definitions Analysis | GEN/KILL Algorithm</p>
+    <p><a href="/projects/pdg-cia-tool">View Project →</a></p>
   </div>
-</section>
-
-<section class="about-preview">
-  <h2>About Me</h2>
-  <p>Hi! I'm a developer passionate about building great software. Welcome to my personal portfolio where I share my projects, thoughts, and experiences.</p>
-  <p><a href="/about">Learn more about me →</a></p>
-</section>
-
-<section class="projects-preview">
-  <h2>Featured Projects</h2>
-  <p><a href="/projects">View all projects →</a></p>
 </section>
