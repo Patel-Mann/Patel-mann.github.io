@@ -17,6 +17,19 @@ title: Home
 
 <section class="projects">
   <h2>Projects</h2>
+  <div class="project-card project-card-with-image">
+    <div class="project-image">
+      <img src="/assets/images/notflix-cover.png" alt="Notflix Screenshot">
+    </div>
+    <div class="project-content">
+      <a href="/projects/notflix">
+        <h3>Notflix: A Distributed Streaming Platform</h3>
+      </a>
+      <p class="project-meta">CPSC559 Final Report </p>
+      <p class="tech-stack">Go | net/rpc | SQLite | React | Bully Algorithm</p>
+      <p>A multi-node, fault tolerant video streaming service demonstrating distributed systems: HTTP/rpc communication, primary backup replication with quorum commit, leader election, heartbeats with circuit breaker, and pre-leadership log sync for fault tolerance.</p>
+    </div>
+  </div>
 
   <div class="project-card project-card-with-image">
     <div class="project-image">
@@ -46,17 +59,4 @@ title: Home
     </div>
   </div>
 
-  <div class="project-card project-card-with-image">
-    <div class="project-image">
-      <img src="/assets/images/notflix-cover.png" alt="Notflix Screenshot">
-    </div>
-    <div class="project-content">
-      <a href="/projects/notflix">
-        <h3>Notflix: A Distributed Streaming Platform</h3>
-      </a>
-      <p class="project-meta">CPSC559 Final Report </p>
-      <p class="tech-stack">Go | net/rpc | SQLite | React | Bully Algorithm</p>
-      <p>A multi-node, fault tolerant video streaming service demonstrating distributed systems: HTTP/rpc communication, primary backup replication with quorum commit, leader election, heartbeats with circuit breaker, and pre-leadership log sync for fault tolerance.</p>
-    </div>
-  </div>
 </section>
