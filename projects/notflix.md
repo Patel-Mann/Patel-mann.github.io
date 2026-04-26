@@ -5,6 +5,8 @@ title: Notflix - CPSC559 Final Report
 
 <p class="back-link"><a href="/">← Back to Home</a></p>
 
+<img class="project-hero-image" src="/assets/images/notflix.png" alt="Notflix Screenshot">
+
 <h1>Notflix - A Distributed Streaming Platform</h1>
 
 <p><em>CPSC559 Final Report | Group 11 | Mann Patel, Ali Al Yasseen, Guanhua Huang (Eric), Thi My Tuyen Tran (Esther)</em></p>
