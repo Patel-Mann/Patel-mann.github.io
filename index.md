@@ -20,20 +20,6 @@ title: Home
 
   <div class="project-card project-card-with-image">
     <div class="project-image">
-      <img src="/assets/images/stm32.png" alt="stm32">
-    </div>
-    <div class="project-content">
-      <a href="/projects/node-to-node">
-        <h3>Node to Node Communication</h3>
-      </a>
-      <p class="project-meta">Apr 2025 </p>
-      <p class="tech-stack">C++</p>
-      <p>Building a product which allows for remote commucation to exchange text, audio, and maybe video calls. In progress.</p>
-    </div>
-  </div>
-
-  <div class="project-card project-card-with-image">
-    <div class="project-image">
       <img src="/assets/images/fin-track.gif" alt="Fin-Track Application Screenshot">
     </div>
     <div class="project-content">
@@ -59,5 +45,18 @@ title: Home
       <p>Built a PDG-based change impact analysis tool for Java 1.4 programs. The tool parses source code, constructs a dependency graph capturing control flow and data flow relationships, and performs reachability analysis to determine impact sets for any given line change.</p>
     </div>
   </div>
-  
+
+  <div class="project-card project-card-with-image">
+    <div class="project-image">
+      <img src="/assets/images/notflix-cover.png" alt="Notflix Screenshot">
+    </div>
+    <div class="project-content">
+      <a href="/projects/notflix">
+        <h3>Notflix: A Distributed Streaming Platform</h3>
+      </a>
+      <p class="project-meta">CPSC559 Final Report </p>
+      <p class="tech-stack">Go | net/rpc | SQLite | React | Bully Algorithm</p>
+      <p>A multi-node, fault tolerant video streaming service demonstrating distributed systems: HTTP/rpc communication, primary backup replication with quorum commit, leader election, heartbeats with circuit breaker, and pre-leadership log sync for fault tolerance.</p>
+    </div>
+  </div>
 </section>

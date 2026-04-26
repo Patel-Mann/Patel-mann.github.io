@@ -78,9 +78,6 @@ title: Fin-Track: CalgaryHacks 2025
 <li>The best solutions often combine multiple disciplines</li>
 </ul>
 
-<h3>Technologies Used</h3>
-<p>React | Next.js | Supabase | Plaid API | ESP32 Microcontroller | Python | C | LCD Display | WiFi Communication</p>
-
 <h2>Future Directions</h2>
 
 <p>While Fin-Track achieved its hackathon goals, several extensions would enhance its utility:</p>
@@ -92,4 +89,3 @@ title: Fin-Track: CalgaryHacks 2025
 <li>Machine learning-based spending predictions</li>
 </ul>
 
-<p class="back-link"><a href="/">← Back to Home</a></p>

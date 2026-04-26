@@ -115,7 +115,3 @@ The few imperfect cases revealed a clear pattern: under-approximation happened i
 <p>Our work has important constraints. The manual ground truth may contain errors. We tested on small to medium programs; scalability to large codebases remains unexplored. The project was completed in 1-2 months, limiting scope. And we focused on Java 1.4, so modern language features aren't supported.</p>
 <p>These limitations don't invalidate the results—they define the boundaries of what we can claim. Future work could address scalability, extend language support, and explore inter-procedural analysis for method calls.</p>
 
-<h3>Technologies & Concepts Used</h3>
-<p>JavaParser | Abstract Syntax Trees | Control Flow Graphs | Program Dependence Graphs | Reaching Definitions Analysis | GEN/KILL Algorithm | Fixed-Point Iteration | Java 1.4</p>
-
-<p class="back-link"><a href="/">← Back to Home</a></p>
